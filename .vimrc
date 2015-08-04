@@ -1,4 +1,4 @@
-set number laststatus=2 hlsearch t_Co=256
+set number laststatus=2 hlsearch t_Co=256 cursorline
 filetype plugin indent on
 syntax on
 colorscheme molokai
