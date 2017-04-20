@@ -1,4 +1,5 @@
 set number laststatus=2 hlsearch t_Co=256 cursorline colorcolumn=80
+set mouse=a
 
 filetype plugin indent on
 syntax on
