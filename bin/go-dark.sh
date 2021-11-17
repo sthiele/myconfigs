@@ -27,7 +27,9 @@ qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript '
         d.writeConfig("Image", "file://home/sthiele/Pictures/low_poly-abstract-inverted.jpg")
     }}
 '
-kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.image --group General --key Image "file://home/sthiele/Pictures/1920x1200-dark.jpg"
+
+# set background image for kscreenlocker
+# kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.image --group General --key Image "file://home/sthiele/Pictures/low_poly-abstract-inverted.jpg"
 
 # set geary style dark
 # cp ~/.config/geary/user-style-dark.css ~/.config/geary/user-style.css
